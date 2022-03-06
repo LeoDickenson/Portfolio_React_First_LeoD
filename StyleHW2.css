@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+    height: 75px;
+background-image: url("https://cdn.crello.com/api/media/medium/179826486/stock-photo-close-shot-papers-pastel-colors?token=");
+}
+#navbar {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    flex-shrink: 1;
+    background-color: rgba(101, 170, 230, 0.6);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#name {
+    font-size: 50px;
+    align-self: center;
+}
+#navbar-options {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.navOption {
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: auto;
+}
+.navOption:hover {
+    cursor: pointer;
+}
+.blocky-divs {
+    display: flexbox;
+    border-radius: 5px;
+    min-height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 500px;
+    margin-bottom: 25%;
+}
+.center-ps {
+    background-color: rgba(134, 134, 134, 0.75);
+    display: flex;
+    text-align: center;
+    height: 300px;
+    border-radius: 5px;
+}
+.blocky-head {
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: larger;
+    margin-bottom: 15px;
+    
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#img-div {
+    background-color: rgba(134, 134, 134, 0.75);
+    display: flex;
+    text-align: center;
+    height: 300px;
+    border-radius: 5px;
+}
+#footer {
+    display: inline-flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+}
